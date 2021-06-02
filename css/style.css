@@ -1,0 +1,70 @@
+:root {
+    --fondo: #096b30;
+    --gris: #808080;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --fuente: Arial;
+}
+
+body {
+    background-color: var(--fondo);
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--fuente);
+}
+
+.formulario, .apuesta {
+    background-color: var(--gris);
+    padding: auto;
+    border-radius: 10px;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    margin: 2rem;
+}
+
+.titulos {
+    text-align: left;
+    font-size: 1.5rem;
+    color: var(--negro);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+@media (min-width:768px) {
+    .formulario, .apuesta {
+        max-width: 350px;
+        margin: 1 auto;
+    }
+}
+
+.boton {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.campo {
+    height: 2rem;
+}
+
+.footer {
+    background-color: var(--gris);
+    padding: 0.1rem 0;
+    margin-top: 1rem;
+}
+
+.footer__texto {
+    font-family: var(--fuente);
+    text-align: center;
+    font-size: 1rem;
+}
+
